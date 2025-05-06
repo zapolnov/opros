@@ -28,7 +28,7 @@ declare_library(${name}
     INSTALL_INCLUDE_DIRECTORIES
         "${CMAKE_CURRENT_SOURCE_DIR}/../../src/${name}"
     PUBLIC_INCLUDE_DIRECTORIES
-        "${CMAKE_CURRENT_SOURCE_DIR}/../../src/${name}"
+        "${CMAKE_CURRENT_SOURCE_DIR}/../../src"
     DEPENDENCIES
         utki
 )
